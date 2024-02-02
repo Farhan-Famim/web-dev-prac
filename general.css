@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 85px;
+    
+    background-color: rgba(224, 255, 255, 0.674);
+}
+
+p{
+    font-family: Calibri, Arial;
+}

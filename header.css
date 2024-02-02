@@ -1,13 +1,26 @@
 .header{
     display: flex; 
+    background-color: rgba(135, 206, 250, 0.373);
 
-    height: 60px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    justify-content: space-between;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(9, 74, 148, 0.428);
+
+    height: 70px;
     margin: 0;
 }
 
 .left_section{
     display: flex; 
-    align-items: center;
+    align-items: center; 
 
     padding-bottom: 5px;
 }
@@ -23,13 +36,15 @@
 .youtube_logo{
     height: 25px;
     cursor: pointer;
+
+    margin-right: 15px;
 }
 
 
 
 .middle_section{ 
-    flex: 1;
-
+    width: 485px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +53,8 @@
 .search_bar{
     flex: 1;
     height: 39px;
-    min-width: 0;
-    max-width: 370px;
+    width: 0;
+    min-width: 54px;
 
     border-style: solid;
     border-width: 1px;
@@ -89,7 +104,7 @@
     height: 38px;
     width: 38px;
 
-    background-color: rgba(236, 236, 236, 0.693);
+    background-color: rgb(217, 214, 214);
 
     cursor: pointer;
     transition: background-color 0.5s;
@@ -104,7 +119,7 @@
 }
 
 .voice_search_button:hover{
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(171, 171, 171);
 }
 
 
@@ -118,19 +133,19 @@
     width: 250px; 
 }
 
-.left_head_buttons{
+.right_head_buttons{
     height: 28px;
     
     padding: 0;
     border: none;
-
-    background-color: transparent;
+    
     cursor: pointer;
+    background-color: transparent;
 
     margin-left: 25px;
 }
 
-.left_head_icons{
+.right_head_icons{
     height: 25px;
 }
 
