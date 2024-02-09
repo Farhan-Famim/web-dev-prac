@@ -10,7 +10,8 @@
     grid-template-columns: 100%;
     grid-template-rows: 75px 75px 75px 75px 75px 75px ;
 
-    background-color:  rgba(135, 206, 250, 0.558); 
+    background-color:  rgb(169, 208, 241);  
+    margin-top: 2px;
 }
 
 .side_bar_divs{
@@ -24,7 +25,7 @@
 }
 
 .side_bar_divs:hover{
-    background-color: rgb(147, 201, 235);
+    background-color: rgb(123, 188, 241);  
 }
 
 .side_bar_divs img{ 
@@ -34,8 +35,8 @@
 }
 
 .side_bar_divs p{
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 530;
 
-    margin-top: 5px;
+    margin-top: 2px;
 } 

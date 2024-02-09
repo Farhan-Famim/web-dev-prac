@@ -1,6 +1,6 @@
 .header{
     display: flex; 
-    background-color: rgba(135, 206, 250, 0.373);
+    background-color: rgb(189, 231, 244);
 
     position: fixed;
     top:0;
@@ -29,15 +29,39 @@
     height: 27px;
     cursor: pointer;
 
+    border-style: hidden;
+    border-radius: 40%;
+
     margin-left: 25px;
     margin-right: 35px;
+}
+
+.hamburger_icon:hover{
+    background-color: rgba(135, 207, 235, 0.656);
+}
+
+.youtube_logo_container{
+    display: flex;
+
+    position: relative;
+
+    .youtube_logo_theme{ 
+        position: absolute;
+        top: -4px; 
+        right: 3px;
+
+        font-family: sherif;
+        font-size: 17px;
+        font-weight: 600;
+        color: rgb(15, 50, 109);
+    }
 }
 
 .youtube_logo{
     height: 25px;
     cursor: pointer;
 
-    margin-right: 15px;
+    margin-right: 28px;
 }
 
 
@@ -177,3 +201,4 @@
     border-width: 1px;
     border-color: rgb(255, 20, 20);
 }
+ 

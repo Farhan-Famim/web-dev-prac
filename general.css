@@ -1,11 +1,16 @@
 body{
     margin: 0;
-    padding-top: 70px;
-    padding-left: 85px;
-    
-    background-color: rgba(224, 255, 255, 0.674);
-}
+    margin-top: 70px;
+    margin-left: 85px;
+    padding-bottom: 300px;
 
-p{
-    font-family: Calibri, Arial;
-}
+    background-color: rgba(224, 255, 255, 0.546);
+
+    font-family: Segoe UI, Calibri; 
+    
+    border-style: hidden;
+    box-shadow: inset 1px 1.5px 12px rgba(0, 0, 0, 0.472);
+    
+    padding-top: 3px;
+    padding-left: 3px;
+} 
